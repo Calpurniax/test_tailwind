@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ScrollProvider } from './context/ScrollContext';
 import Home from './views/Home';
-import './App.css'
+
 
 function App() { 
 

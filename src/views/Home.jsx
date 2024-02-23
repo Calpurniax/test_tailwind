@@ -1,15 +1,14 @@
 
-import Header from "../components/Header";
-
+import Layout from '../components/layouts/Layout';
+import Hero from '../components/Hero'
+import Slogan from '../components/Slogan'
 
 const Home =()=>{
     return(
-       <>
-       <Header/>
-       <div className="bg-neutral-400 text-white h-screen w-screen flex justify-center items-center">
-            <p>Testing the breakpoints with tailwindCSS</p>
-        </div>
-       </>
+       <Layout>
+            <Hero/>
+            <Slogan/>           
+       </Layout>
     )
 }
 
